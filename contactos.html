@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riot Games | Contactos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="shortcut icon" href="https://www.riotgames.com/assets/img/meta/04fa9e7e9b64fc21382fba33a1f436c2/meta-icon-1000x1000.jpg" type="image/jpeg">
+</head>
+<body class="fondo-contacto">
+
+    <audio src="audio/League Client_ Summoner's Rift - In Queue.mp3" autoplay loop></audio>
+
+    <div class="pagina">
+
+        <nav id="navegador">
+            <h1><a href="index.html">RIOT GAMES</a></h1>
+            <ul class="menu">
+                <li><a href="index.html"><i class="fa-regular fa-heart"></i> Inicio</a></li>
+                <li><a href="nosotros.html"><i class="fa-solid fa-users"></i> Nosotros</a></li>
+                <li><a href="blog.html"><i class="fa-solid fa-pencil"></i> Blog</a></li>
+                <li><a href="galeria.html"><i class="fa-solid fa-image"></i> Galeria</a></li>
+                <li><a href="videos.html"><i class="fa-solid fa-video"></i> Videos</a></li>
+                <li id="caf"><a href="contactos.html"><i class="fa-solid fa-envelope"></i> Contactos</a></li>
+            </ul>
+        </nav>
+
+        <div class="grid-contacto">
+
+            <div class="bloque">
+                <h3>Información de Contacto</h3>
+                <table class="tabla-contacto">
+                    <tr>
+                        <th>Sede principal:</th>
+                        <td>12333 W Olympic Blvd<br>Los Ángeles, CA 90064, EE. UU.</td>
+                    </tr>
+                    <tr>
+                        <th>Teléfono:</th>
+                        <td>+1 (424) 231-1111</td>
+                    </tr>
+                    <tr>
+                        <th>Prensa:</th>
+                        <td>press@riotgames.com</td>
+                    </tr>
+                    <tr>
+                        <th>Soporte a jugadores:</th>
+                        <td>support.riotgames.com — disponible 24/7</td>
+                    </tr>
+                </table>
+
+                <h3 style="margin-top:20px;">Horario de Oficinas</h3>
+                <table class="tabla-contacto">
+                    <tr>
+                        <th>Oficinas corporativas:</th>
+                        <td>Lunes a Viernes, 9:00 am – 6:00 pm</td>
+                    </tr>
+                    <tr>
+                        <th>Soporte en línea:</th>
+                        <td>Todos los días, las 24 horas</td>
+                    </tr>
+                </table>
+
+                <div class="imagen-degradado">
+                    <img src="https://www.riotgames.com/darkroom/1000/ad5648a9370911482ed842cf02480c78:82e7090241b4e4edc67f9dc284d211b3/thumbnail-wrln26-1920x1080-textles.jpg" alt="League of Legends: Wild Rift">
+                    <span>League of Legends: Wild Rift</span>
+                </div>
+            </div>
+
+            <div class="bloque">
+                <h3>Contactanos</h3>
+                <form class="formulario-contacto" action="#" method="post">
+                    <label for="nombre">Nombre y apellido</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo">
+
+                    <label for="correo">Correo electrónico <span class="obligatorio">*obligatorio</span></label>
+                    <input type="email" id="correo" name="correo" placeholder="nombre@dominio.com" required>
+
+                    <label for="tipo">Tipo de consulta</label>
+                    <select id="tipo" name="tipo">
+                        <option value="soporte">Soporte de jugadores</option>
+                        <option value="prensa">Prensa</option>
+                        <option value="esports">Esports</option>
+                        <option value="carreras">Carreras / Empleo</option>
+                    </select>
+
+                    <label for="mensaje">Mensaje <span class="obligatorio">*obligatorio</span></label>
+                    <textarea id="mensaje" name="mensaje" placeholder="Cuéntanos en qué te podemos ayudar" required></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+
+            <div class="mapa-wrapper">
+                <iframe
+                    src="https://www.google.com/maps?q=12333+W+Olympic+Blvd,+Los+Angeles,+CA+90064&output=embed"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Mapa - Sede de Riot Games en Los Angeles">
+                </iframe>
+            </div>
+
+        </div>
+
+        <div>
+            <ul class="redes">
+                <li><a href="https://twitter.com/riotgames" target="_blank"><i class="fa-brands fa-x-twitter fa-xl"></i></a></li>
+                <li><a href="https://www.facebook.com/RiotGames/" target="_blank"><i class="fa-brands fa-facebook fa-xl"></i></a></li>
+                <li><a href="https://www.instagram.com/riotgames/" target="_blank"><i class="fa-brands fa-instagram fa-xl"></i></a></li>
+                <li><a href="https://www.tiktok.com/@riotgames" target="_blank"><i class="fa-brands fa-tiktok fa-xl"></i></a></li>
+                <li><a href="https://www.youtube.com/riotgames" target="_blank"><i class="fa-brands fa-youtube fa-xl"></i></a></li>
+            </ul>
+        </div>
+
+    </div>
+</body>
+</html>
