@@ -422,6 +422,92 @@ form.formulario-contacto button:hover{
     letter-spacing: 1px;
     font-size: 0.9em;
 }
+.intro-promo{
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+    color: var(--color4);
+    opacity: 0.9;
+}
+.promo-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    padding: 10px 0 30px 0;
+}
+.promo-box{
+    background: var(--color5);
+    border: 2px solid var(--color3);
+    border-radius: 10px;
+    padding: 25px;
+    width: 300px;
+    text-align: center;
+    animation: pulso-dorado 2.4s ease-in-out infinite;
+}
+@keyframes pulso-dorado{
+    0%, 100%{ box-shadow: 0 0 8px rgba(200,155,60,0.35); transform: translateY(0); }
+    50%{ box-shadow: 0 0 22px rgba(226,21,43,0.65); transform: translateY(-4px); }
+}
+.promo-box h3{
+    font-family: 'Oswald', sans-serif;
+    color: var(--color1);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.15em;
+    margin-bottom: 12px;
+}
+.promo-box p{
+    font-size: 0.92em;
+    color: var(--color4);
+    line-height: 1.5em;
+    margin-bottom: 18px;
+    min-height: 65px;
+}
+.promo-box .etiqueta{
+    display: inline-block;
+    background: var(--color1);
+    color: white;
+    font-size: 0.75em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin-bottom: 14px;
+}
+.btn-reclamar{
+    background: var(--color3);
+    color: var(--color2);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 0.85em;
+    cursor: pointer;
+    transition: background .2s ease, transform .2s ease;
+}
+.btn-reclamar:hover{
+    background: var(--color1);
+    color: white;
+    transform: scale(1.04);
+}
+.banner-social{
+    text-align: center;
+    max-width: 700px;
+    margin: 10px auto 35px auto;
+    padding: 16px;
+    border-top: 1px dashed var(--color3);
+    border-bottom: 1px dashed var(--color3);
+    font-size: 0.9em;
+    color: var(--color3);
+    letter-spacing: 1px;
+}
+@media (max-width: 700px){
+    .promo-box{ width: 100%; max-width: 340px; }
+}
+
 @media (max-width: 900px){
     .pagina{ width: 92%; }
     h1{ font-size: 2.6em; }
