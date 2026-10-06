@@ -22,7 +22,7 @@ HTML y CSS, con Google Fonts y Font Awesome. La estructura del repositorio no re
 ## Ver el proyecto en tu equipo
 
 ```bash
-git clone https://github.com/Guillermo1euribe/pagina-web-riotgames.git
+git clone https://github.com/pavoneh/pagina-web-riotgames.git
 cd pagina-web-riotgames
 ```
 
@@ -55,4 +55,4 @@ El formulario de contacto no está conectado a un backend. La reproducción auto
 Proyecto de práctica no oficial, sin afiliación con Riot Games. Las marcas y los recursos de terceros pertenecen a sus respectivos titulares.
 
 ---
-Proyecto en el portafolio de [Guillermo](https://github.com/Guillermo1euribe).
+Proyecto en el portafolio de [Guillermo](https://github.com/pavoneh).
